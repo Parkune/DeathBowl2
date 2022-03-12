@@ -11,6 +11,7 @@ public class UImanager : MonoBehaviour
     public Slider engineSlider;
     private int engineEnegy;
     private int tresureScore;
+    public GameObject frezeEfect;
     public TMP_Text shipTresureText;
     public TMP_Text upSideTresureText;
     public int MaxValue;
@@ -41,7 +42,7 @@ public class UImanager : MonoBehaviour
 
 
 
-    void TimeSwich()
+    public void TimeSwich()
     {
         StartCoroutine(TimeSwichDown());
     }
@@ -58,6 +59,10 @@ public class UImanager : MonoBehaviour
     public void EnegyUp(int Enegy)
     {
         engineEnegy += Enegy;
+        if(engineEnegy < 30)
+        {
+            engineEnegy = 30;
+        }
         engineSlider.DOValue(engineEnegy, 1).Play();
     }
 
@@ -74,8 +79,10 @@ public class UImanager : MonoBehaviour
     IEnumerator stopEngine()
     {
         StopCoroutine(enegyDown);
+        frezeEfect.SetActive(true);
         yield return new WaitForSecondsRealtime(5f);
         StartCoroutine(enegyDown);
+        frezeEfect.SetActive(false);
     }
 
 

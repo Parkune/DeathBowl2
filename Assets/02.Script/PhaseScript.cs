@@ -40,6 +40,9 @@ public class PhaseScript : MonoBehaviour
     IEnumerator respwanFoods;
 
 
+    
+
+
     private void Update() 
     {
         phaseTime += Time.unscaledDeltaTime;
@@ -365,6 +368,8 @@ public class PhaseScript : MonoBehaviour
         blockFactory2 = MoveBlockCreater2(blockCreateScale, blockNum);
         Defultblock = blockObject.GetComponent<DeafultWall>();
         DefultblockRight = defaltRightBlock.GetComponent<DeafultWall>();
+        startGame = true;
+        StartCoroutine(itemRespwan());
         for (int i = 0; i < blockRespwanPoint.Count; i++)
         {
             blockTransform.Add(blockRespwanPoint[i].transform);
@@ -422,5 +427,23 @@ public class PhaseScript : MonoBehaviour
     public void TimeScaleChange(float changeNum)
     {
         Time.timeScale = changeNum;
+    }
+
+    public bool startGame;
+    WaitForSecondsRealtime respwanItem = new WaitForSecondsRealtime(10f);
+    IEnumerator itemRespwan()
+    {
+        while(startGame)
+        {
+            float itemNum = UnityEngine.Random.Range(1, 3);
+            yield return respwanItem;
+            if (itemNum ==1 )
+            {
+                GameObject time = ObjectPooler.SpawnFromPool("TIME", GetRandomSpawnPosition());
+            } else if (itemNum == 2)
+            {
+                GameObject jewel = ObjectPooler.SpawnFromPool("JEWEL", GetRandomSpawnPosition());
+            }
+        }
     }
 }
