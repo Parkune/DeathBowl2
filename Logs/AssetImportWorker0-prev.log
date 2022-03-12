@@ -1,0 +1,550 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1586; Version 2009; 64bit' Language: 'ko' Physical Memory: 40889 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Git\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Git/DeathBowl
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3509
+Successfully changed project path to: D:/Git/DeathBowl
+D:/Git/DeathBowl
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path D:/Git/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Git/DeathBowl/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f07)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'D:/Git/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Git/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Git/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Git/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Git/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002326 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1247ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.0 MB.
+System memory in use after: 112.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2852.
+Total: 3.456400 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.063300 ms MarkObjects: 3.051000 ms  DeleteObjects: 0.075900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PlayFabEditorExtensions
+  artifactKey: Guid(e6b6b62449f1f4ed1bdf033d7f2d2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayFabEditorExtensions using Guid(e6b6b62449f1f4ed1bdf033d7f2d2ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3023a765156a22e02eacc13c40522f') in 0.009685 seconds 
+  Import took 0.013471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286480 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(3898d22c2cc4beb499f7234caef61079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(3898d22c2cc4beb499f7234caef61079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9b46155009332ee5d6422f648f90ff') in 0.005732 seconds 
+  Import took 0.009917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.200400 seconds.
+  path: Assets/PlayFabSDK/PlayFab.asmdef
+  artifactKey: Guid(0da6d172d18a54e4389d0dce1e1ffdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayFabSDK/PlayFab.asmdef using Guid(0da6d172d18a54e4389d0dce1e1ffdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423a60f3dfa0f72e8956f3b3a2140931') in 0.048110 seconds 
+  Import took 0.052501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.218502 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_hex_greyscale.png
+  artifactKey: Guid(1e870407e0f5e47e3acd294204c9ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_hex_greyscale.png using Guid(1e870407e0f5e47e3acd294204c9ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ab4ce9263a1066bb13d43067173b26') in 0.197257 seconds 
+  Import took 0.201285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_hex_greyscale.png
+  artifactKey: Guid(9aad52bfdcbbb42b69bc3d1cd23ddf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_hex_greyscale.png using Guid(9aad52bfdcbbb42b69bc3d1cd23ddf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecbde3f6a909af1ab59bbf7a1aa0681') in 0.021858 seconds 
+  Import took 0.025704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_hex_pressed_greyscale.png
+  artifactKey: Guid(690e696bdaa224d67905ce7bccf6efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_hex_pressed_greyscale.png using Guid(690e696bdaa224d67905ce7bccf6efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cec640ecb2c23107060e55da0cbb3d5') in 0.021464 seconds 
+  Import took 0.025256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_hex_pressed_greyscale.png
+  artifactKey: Guid(e08b16abc49b04ff9b5a7615ab8c3e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_hex_pressed_greyscale.png using Guid(e08b16abc49b04ff9b5a7615ab8c3e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f425c70f715d13c521c861082a83ee') in 0.239595 seconds 
+  Import took 0.243856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.983666 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_rectangle_greyscale.png
+  artifactKey: Guid(3a9cf80eaa51f4408af7a8174397afcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_rectangle_greyscale.png using Guid(3a9cf80eaa51f4408af7a8174397afcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe94b331dbf3b8e298f2215ecf5768f4') in 0.024097 seconds 
+  Import took 0.028147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_rectangle_greyscale.png
+  artifactKey: Guid(a894787321bfa496f8e62bd0e73ab8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_rectangle_greyscale.png using Guid(a894787321bfa496f8e62bd0e73ab8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e2c36170eadc5efce5d73fe2314ed0') in 0.015494 seconds 
+  Import took 0.019040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048177 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_rectangle_pressed_greyscale.png
+  artifactKey: Guid(895d528f32d1b48b6ad6214742b8c322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_rectangle_pressed_greyscale.png using Guid(895d528f32d1b48b6ad6214742b8c322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d5615c4616c0754aa6b210fd16a983') in 0.027840 seconds 
+  Import took 0.031857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_rectangle_pressed_greyscale.png
+  artifactKey: Guid(ac311bdc6b7754a31b8d5821d2951b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_rectangle_pressed_greyscale.png using Guid(ac311bdc6b7754a31b8d5821d2951b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd29f74e7a9b67fcc0ac28f8715bfcb') in 0.015900 seconds 
+  Import took 0.019851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.962341 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_round_greyscale.png
+  artifactKey: Guid(d73dc8452d89e4a6ba57e800ed006fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_round_greyscale.png using Guid(d73dc8452d89e4a6ba57e800ed006fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5670cb5140bf18b7cccc1f5d2a41f6') in 0.021392 seconds 
+  Import took 0.025978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_round_pressed_greyscale.png
+  artifactKey: Guid(9a5ce019a3ff248078e7c1ff06cc7ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_round_pressed_greyscale.png using Guid(9a5ce019a3ff248078e7c1ff06cc7ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8d15ae94ee519f830e3b65c33602b') in 0.017890 seconds 
+  Import took 0.022306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_round_greyscale.png
+  artifactKey: Guid(8220ee6dcb72b49d9b3b765366a043ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Buttons/btn_round_greyscale.png using Guid(8220ee6dcb72b49d9b3b765366a043ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1be578794108d2dee51798233809a8a') in 0.019835 seconds 
+  Import took 0.024205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf10a232fb1e9761a31632be84bc7c') in 0.234583 seconds 
+  Import took 0.238788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_round_pressed_greyscale.png
+  artifactKey: Guid(c59b110c355a141e78d8aff242ce0982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Buttons/btn_round_pressed_greyscale.png using Guid(c59b110c355a141e78d8aff242ce0982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cd76fcedaadc3a45e8390ca103d08f') in 0.023363 seconds 
+  Import took 0.028712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb1a531bdeffaee745a9dd9c4f17fc2') in 0.071018 seconds 
+  Import took 0.074816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag1_line_greyscale.png
+  artifactKey: Guid(2308e2477d015472dbe1a2c2d5eb2b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag1_line_greyscale.png using Guid(2308e2477d015472dbe1a2c2d5eb2b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee4b9a51d59ee10f3e7d9274680f1b8') in 0.022229 seconds 
+  Import took 0.026299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag1_line_greyscale.png
+  artifactKey: Guid(c3083a7c1936a46b3a1b9bf317149aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag1_line_greyscale.png using Guid(c3083a7c1936a46b3a1b9bf317149aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b044e4accca25c8b650447b0f2c09') in 0.013752 seconds 
+  Import took 0.017581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4457526dabe3b1ee21207b5702e85636') in 0.093748 seconds 
+  Import took 0.097564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333646 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag1_shade_greyscale.png
+  artifactKey: Guid(b01212e8f662a4131bd35a54a3f44dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag1_shade_greyscale.png using Guid(b01212e8f662a4131bd35a54a3f44dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8909d4b47446f56910e72358e800288') in 0.014850 seconds 
+  Import took 0.020469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag1_shade_greyscale.png
+  artifactKey: Guid(a33d641fae8374666bc8c4f5073703f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag1_shade_greyscale.png using Guid(a33d641fae8374666bc8c4f5073703f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c229549b37eacf162663e987915d6') in 0.023357 seconds 
+  Import took 0.027764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag2_line_greyscale.png
+  artifactKey: Guid(511ef83f95df04f078e4ea8a63f5d33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag2_line_greyscale.png using Guid(511ef83f95df04f078e4ea8a63f5d33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8facec976c0f56587ef4d4b7b8124a74') in 0.020398 seconds 
+  Import took 0.023955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag2_line_greyscale.png
+  artifactKey: Guid(caa5609795cb84c89b4435d83e6f0a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag2_line_greyscale.png using Guid(caa5609795cb84c89b4435d83e6f0a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e1b11590f0c4672268cf2ba80ecb0e') in 0.015677 seconds 
+  Import took 0.019293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_plain_line_greyscale.png
+  artifactKey: Guid(b04ee0b2f7c2c46008d14db18db11d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_plain_line_greyscale.png using Guid(b04ee0b2f7c2c46008d14db18db11d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81672b66d737d84728b12c4ffa5d13f2') in 0.021343 seconds 
+  Import took 0.025288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_plain_line_greyscale.png
+  artifactKey: Guid(502b1d78d626049618b35d046ebd2454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_plain_line_greyscale.png using Guid(502b1d78d626049618b35d046ebd2454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ea15809fbcf04caab1df9a51e69670') in 0.013924 seconds 
+  Import took 0.017594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag2_shade_greyscale.png
+  artifactKey: Guid(b2ffd5e8132ed4ca2a93da5917fa3127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_flag2_shade_greyscale.png using Guid(b2ffd5e8132ed4ca2a93da5917fa3127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc9ef675bed1e94fcf71f7a7adedf01') in 0.020813 seconds 
+  Import took 0.025579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_plain_shade_greyscale.png
+  artifactKey: Guid(379067cf786e5447194aa2aba2ed7370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_plain_shade_greyscale.png using Guid(379067cf786e5447194aa2aba2ed7370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4395f42e0f48c2fa1b6f0f118390e28') in 0.017646 seconds 
+  Import took 0.021308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag2_shade_greyscale.png
+  artifactKey: Guid(cd90ff041d3264032b32d1c870718493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_flag2_shade_greyscale.png using Guid(cd90ff041d3264032b32d1c870718493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60d61e22b804814e3520997dae87e0f') in 0.014203 seconds 
+  Import took 0.018128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100334 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_plain_shade_greyscale.png
+  artifactKey: Guid(93bfdceb1ee3e47aba61ea457d6c39a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_plain_shade_greyscale.png using Guid(93bfdceb1ee3e47aba61ea457d6c39a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4359f2e4aef9f32f3a45777d89ca3a') in 0.013430 seconds 
+  Import took 0.018197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_ribbon_shade_greyscale.png
+  artifactKey: Guid(dec8d550975084105b24dc4a2203332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_ribbon_shade_greyscale.png using Guid(dec8d550975084105b24dc4a2203332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e37ca65e0f6076b7e90c28e86be5cc9') in 0.015093 seconds 
+  Import took 0.019334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_ribbon_shade_greyscale.png
+  artifactKey: Guid(f4c0051ec846848f2a76d80b753775bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_ribbon_shade_greyscale.png using Guid(f4c0051ec846848f2a76d80b753775bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8525c1d2b8a7701c2a5c40e33c0943c') in 0.024011 seconds 
+  Import took 0.027967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_frame_greyscale.png
+  artifactKey: Guid(62407d735481e4f04b9dac8ef3e95bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_frame_greyscale.png using Guid(62407d735481e4f04b9dac8ef3e95bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35feea36049cb80a3f508c55ae18041') in 0.047946 seconds 
+  Import took 0.052275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_framehead_greyscale.png
+  artifactKey: Guid(9c5f67f9f27cc4dceb080cd671a31a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_framehead_greyscale.png using Guid(9c5f67f9f27cc4dceb080cd671a31a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199960644c5a75919e21e66950141053') in 0.036610 seconds 
+  Import took 0.040280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_framehead_greyscale.png
+  artifactKey: Guid(ec597eb27b255469ba708b6a45d3a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_framehead_greyscale.png using Guid(ec597eb27b255469ba708b6a45d3a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1b14f8d5297f813ebaea16f92dea6e') in 0.014837 seconds 
+  Import took 0.018340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_gradient_greyscale.png
+  artifactKey: Guid(184ff8c8963a042618355cebc3e65d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_gradient_greyscale.png using Guid(184ff8c8963a042618355cebc3e65d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6eba4df96e054ef3ff7a41eac0d965') in 0.030680 seconds 
+  Import took 0.035045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_ribbon_line_greyscale.png
+  artifactKey: Guid(853d6f9d269654a2f99c9554a9603eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Headers/head_ribbon_line_greyscale.png using Guid(853d6f9d269654a2f99c9554a9603eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961d760a6ac916a0c1d7dbd4ce7e55a') in 0.013572 seconds 
+  Import took 0.017291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_frame_greyscale.png
+  artifactKey: Guid(682afb3d41c2a480a86ffd8cce72141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_frame_greyscale.png using Guid(682afb3d41c2a480a86ffd8cce72141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6753685a637adfee6f3cf244f79d21f1') in 0.015479 seconds 
+  Import took 0.019682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png
+  artifactKey: Guid(96cbdf605b8ddb34da384703f2d0b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png using Guid(96cbdf605b8ddb34da384703f2d0b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e7440ec411456a98b3486756cdafb2') in 0.012238 seconds 
+  Import took 0.016722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_ribbon_line_greyscale.png
+  artifactKey: Guid(3ef07ab0a2d324e8ba09c5caaad0f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Headers/head_ribbon_line_greyscale.png using Guid(3ef07ab0a2d324e8ba09c5caaad0f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb82e47c23b113b876d0079bd57ee977') in 0.016775 seconds 
+  Import took 0.021301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058765 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_gradient_greyscale.png
+  artifactKey: Guid(687458b65ed97426bbaa51fc6d4c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_gradient_greyscale.png using Guid(687458b65ed97426bbaa51fc6d4c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cf9ab511f2cf21249868426033e0ed') in 0.036097 seconds 
+  Import took 0.040242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_hex_line_greyscale.png
+  artifactKey: Guid(534cb71ba7ddd4f80afb500e5c3b6f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_hex_line_greyscale.png using Guid(534cb71ba7ddd4f80afb500e5c3b6f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16da7c9c6e152365c090d4285cfcfe3') in 0.047113 seconds 
+  Import took 0.052356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_gradient_head_greyscale.png
+  artifactKey: Guid(a9d04ac9f80f445c88cf097fc4c9a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_1x/Panels/panel_gradient_head_greyscale.png using Guid(a9d04ac9f80f445c88cf097fc4c9a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b067be2188139ac0eea5f4a5d7c2e62a') in 0.015021 seconds 
+  Import took 0.018811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_gradient_head_greyscale.png
+  artifactKey: Guid(f773bb1afafcb4a96b2e50e5caac4e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_gradient_head_greyscale.png using Guid(f773bb1afafcb4a96b2e50e5caac4e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad6966fc21aef215bb745e87d2005ee') in 0.022100 seconds 
+  Import took 0.025592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_hex_shade_greyscale.png
+  artifactKey: Guid(2f3f7f0e1fdc94636a43c0e5a5aac7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Sprites_3x/Panels/panel_hex_shade_greyscale.png using Guid(2f3f7f0e1fdc94636a43c0e5a5aac7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbb8e87f0db4f95a6d9ecc477aaa4d1') in 0.037015 seconds 
+  Import took 0.041964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7a90a589171bc334c5dc74854bfd25') in 0.016411 seconds 
+  Import took 0.020503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.974839 seconds.
+  path: Assets/Clirgo/Pixel Kit - Underwater Pack/Demo/Scripts/ObjectsCleaner.cs
+  artifactKey: Guid(3e750b3505155bb4aa51c8a7a7a03314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clirgo/Pixel Kit - Underwater Pack/Demo/Scripts/ObjectsCleaner.cs using Guid(3e750b3505155bb4aa51c8a7a7a03314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b22940539d65fcd35a5dddde30c837') in 0.014474 seconds 
+  Import took 0.018307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.417871 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+  artifactKey: Guid(03ec435d4b7140e9b2d87f79136d8374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity using Guid(03ec435d4b7140e9b2d87f79136d8374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0897d8ab7d93ff8a365a652a10bf4bfc') in 0.007251 seconds 
+  Import took 0.011320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.059224 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+  artifactKey: Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity using Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57c08d34d246bac5c1ace1dcc4848ab') in 0.005538 seconds 
+  Import took 0.010275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.151819 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018341895e1847fa3a5046175513924c') in 0.008867 seconds 
+  Import took 0.013970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.965601 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+  artifactKey: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e7e13b490c247d4beaea5c8213ea52') in 0.006178 seconds 
+  Import took 0.012787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.097747 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+  artifactKey: Guid(6250f98e58fe4abbaada5d84b7ca846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity using Guid(6250f98e58fe4abbaada5d84b7ca846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c1b93d2e412ce578cf3ea90d380dd5') in 0.004981 seconds 
+  Import took 0.008884 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
