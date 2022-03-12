@@ -94,7 +94,6 @@
     <Compile Include="Assets\Underwater Diving\Scripts\PlayerController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Underwater Diving\Scripts\ParallaxBackground.cs" />
-    <Compile Include="Assets\UI Kit Pro - Kawaii\Scripts\TabController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\02.Script\Food.cs" />
